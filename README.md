@@ -2,10 +2,12 @@
 A web or mobile app that takes in coordinates within Chicago city limits and an email address and submits a request to fix broken or burned out street lights.
 
 ## Technologies 
+Basically starting off with a WAMP Stack
 <hr>
 + Leaflet.js
 + bootstrap
-+ sql or MongoDB
++ PHP
+
 
 ## UX Map Steps 
 <hr>
