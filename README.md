@@ -16,7 +16,7 @@ Basically starting off with a WAMP Stack
 
 ##Lights Out Chicago Data
 
-Link for lights out Chicago data : https://data.cityofchicago.org/Service-Requests/311-Service-Requests-Alley-Lights-Out/t28b-ys7j/data
-API Documentation for Lights out Chicago: https://dev.socrata.com/foundry/data.cityofchicago.org/h5ea-dn36
++ Link for lights out Chicago data : https://data.cityofchicago.org/Service-Requests/311-Service-Requests-Alley-Lights-Out/t28b-ys7j/data
++ API Documentation for Lights out Chicago: https://dev.socrata.com/foundry/data.cityofchicago.org/h5ea-dn36
 
 
