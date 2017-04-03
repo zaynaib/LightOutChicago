@@ -3,18 +3,36 @@
     <title>Simple Leaflet Map</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+    <script src="js/data.js"> </script>
+
 </head>
 <body>
+  <h1> Lights Out Chicago Street Map </h1>
+
+   <div>
+      <p>Legend</p>
+       <ul>
+         <li>Blue Markers: Fixed Street Lights</li>
+         <li>Red Markers: Broken Street Lights</li>
+       <ul>
+    </div>
+
+         <form>
+           <p>Check to is if street light service has already been requested</p><br>
+           <input type="text" name="service" id="chiService">
+           <button type="button" onclick="serviceFunction()">Try it</button>
+
+<p id="demo"></p>
+         </form>
     <div id="map" style="width: 600px; height: 600px"></div>
 
     <script
         src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js">
     </script>
 
-    <script>
-       
-    </script>
+
 </body>
 </html>
