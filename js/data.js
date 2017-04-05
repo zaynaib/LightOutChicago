@@ -3,7 +3,7 @@ $.ajax({
     type: "GET",
     data: {
       "$limit" : 200,
-      "$$app_token" : "xlhMeu5EmajOT4gWzLOTw280f"
+      "$$app_token" : "APP_TOKEN"
     }
 }).done(function(data) {
   //alert("Retrieved " + data.length + " records from the dataset!");
